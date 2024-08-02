@@ -11,5 +11,5 @@ class Category:
         self.description = description
         self.products = products
 
-        self.counter_products += 1
+        self.counter_products += len(products)
         self.counter_category += 1
